@@ -1,0 +1,25 @@
+<div class="comment-section">
+  <h2 id="comment-reply-title">Add Comment</h2>
+  <form method="POST" action="https://dev.staticman.net/v3/entry/github/psto/stojanow.com/source" id="commentform" class="comment-form">
+    <div class="comment-form-name">
+      <input name="fields[name]" type="text" placeholder="Name" size="30" maxlength="245" required>
+      <label for="name">Name</label>
+    </div>
+
+    <div class="comment-form-email">
+      <input name="fields[email]" type="email" placeholder="Email" size="30" maxlength="100" required>
+      <label for="email" data-help="Format email@email.com">Email</label>
+    </div>
+
+    <!-- <div class="comment&#45;form&#45;url"> -->
+
+    <div class="comment-form-comment">
+      <textarea name="fields[message]" placeholder="Comment" id="comment" cols="45" rows="8" required></textarea>
+      <label for="comment">Comment</label>
+    </div>
+
+    <div class="form-submit">
+      <input name="submit" type="submit" id="submit" class="submit" value="Post Comment">
+    </div>
+  </form>
+<div>
